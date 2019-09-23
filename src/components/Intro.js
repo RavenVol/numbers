@@ -36,6 +36,13 @@ const Intro = ({setFirstTime}) => {
             was strong and handsome and his princess was young
             and beautyful.
           </div>
+
+          <div
+            className="startBtn"
+            onClick={() => setFirstTime(false)}
+          >
+            Skip Intro >>>
+          </div>
         </div>
 
         <div className="page-bottom two-b">
@@ -50,6 +57,13 @@ const Intro = ({setFirstTime}) => {
           <div className="text">
             &nbsp;Their country was rich and the prince and his princess
             lived without knowing worries.
+          </div>
+
+          <div
+            className="startBtn"
+            onClick={() => setFirstTime(false)}
+          >
+            Skip Intro >>>
           </div>
         </div>
 
@@ -67,6 +81,13 @@ const Intro = ({setFirstTime}) => {
             dark castle. <br /><br />&nbsp;He envied the happyness of nice pair. So
             he persuaded a dragon to kiddnap a princess and bring her
             to the sorccerer's castle.
+          </div>
+
+          <div
+            className="startBtn"
+            onClick={() => setFirstTime(false)}
+          >
+            Skip Intro >>>
           </div>
         </div>
 
@@ -87,6 +108,13 @@ const Intro = ({setFirstTime}) => {
             if ewerything alright in their kingdom?) a terrible dragon
             fell from the sky and take princess away.
           </div>
+
+          <div
+            className="startBtn"
+            onClick={() => setFirstTime(false)}
+          >
+            Skip Intro >>>
+          </div>
         </div>
 
         <div className="page-bottom five-b">
@@ -102,6 +130,13 @@ const Intro = ({setFirstTime}) => {
             &nbsp;Without losing a second, prince went home, where he ate well
             and slept well, and then ate again.<br /><br />&nbsp;Then he straddled his horse...
             <br />&nbsp;A horse I said...
+          </div>
+
+          <div
+            className="startBtn"
+            onClick={() => setFirstTime(false)}
+          >
+            Skip Intro >>>
           </div>
         </div>
 
@@ -119,6 +154,13 @@ const Intro = ({setFirstTime}) => {
             did not ride but flew to save his princess. He was not worried much, because
             he knew that neither the evil sorcerer nor his dragon knew what the
             young princesses are for.
+          </div>
+
+          <div
+            className="startBtn"
+            onClick={() => setFirstTime(false)}
+          >
+            Skip Intro >>>
           </div>
         </div>
 
@@ -138,6 +180,13 @@ const Intro = ({setFirstTime}) => {
             tendencies... You remember that the prince was strong enough to destroy the
             sorcerer for such antics.
           </div>
+
+          <div
+            className="startBtn"
+            onClick={() => setFirstTime(false)}
+          >
+            Skip Intro >>>
+          </div>
         </div>
 
         <div className="page-bottom eight-b">
@@ -154,6 +203,13 @@ const Intro = ({setFirstTime}) => {
             <br /><br />&nbsp;On the way to the princess' dungeon he set three times three doors and put a
             dragon near each door to guard it. Each door has a magic lock. This lock
             could only be opened if somebody choose the right combination for numbers.
+          </div>
+
+          <div
+            className="startBtn"
+            onClick={() => setFirstTime(false)}
+          >
+            Skip Intro >>>
           </div>
         </div>
 

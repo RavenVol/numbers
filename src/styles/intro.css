@@ -75,84 +75,84 @@
 }
 
 .two {
-  animation-delay: 20s;
+  animation-delay: 13s;
   z-index: 90;
 }
 .two-b {
-  animation-delay: 20s;
+  animation-delay: 13s;
   z-index: 85;
 }
 
 .three {
-  animation-delay: 27s;
+  animation-delay: 18s;
   z-index: 80;
 }
 .three-b {
-  animation-delay: 27s;
+  animation-delay: 18s;
   z-index: 75;
 }
 
 .four {
-  animation-delay: 45s;
+  animation-delay: 30s;
   z-index: 70;
 }
 .four-b {
-  animation-delay: 45s;
+  animation-delay: 30s;
   z-index: 65;
 }
 
 .five {
-  animation-delay: 65s;
+  animation-delay: 43s;
   z-index: 60;
 }
 .five-b {
-  animation-delay: 65s;
+  animation-delay: 43s;
   z-index: 55;
 }
 
 .six {
-  animation-delay: 75s;
+  animation-delay: 50s;
   z-index: 50;
 }
 .six-b {
-  animation-delay: 75s;
+  animation-delay: 50s;
   z-index: 45;
 }
 
 .seven {
-  animation-delay: 95s;
+  animation-delay: 63s;
   z-index: 40;
 }
 .seven-b {
-  animation-delay: 95s;
+  animation-delay: 63s;
   z-index: 35;
 }
 
 .eight {
-  animation-delay: 115s;
+  animation-delay: 76s;
   z-index: 30;
 }
 .eight-b {
-  animation-delay: 115s;
+  animation-delay: 76s;
   z-index: 25;
 }
 
 .nine {
-  animation-delay: 135s;
+  animation-delay: 90s;
   z-index: 20;
 }
 .nine-b {
-  animation-delay: 135s;
+  animation-delay: 90s;
   z-index: 15;
 }
 
 .ten {
-  animation-delay: 140s;
+  animation-delay: 93s;
   z-index: 10;
   animation-play-state: paused;
 }
 .ten-b {
-  animation-delay: 140s;
+  animation-delay: 93s;
   z-index: 5;
 }
 
