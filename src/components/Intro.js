@@ -1,11 +1,17 @@
 import React from 'react';
 import '../styles/intro.css';
 
+const pageFlip = (page) => {
+  let element = document.getElementsByClassName(page);
+  element[0].style.animationPlayState='running';
+  element[1].style.animationPlayState='running';
+};
+
 const Intro = ({setFirstTime}) => {
   return (
     <div className="table">
       <div className="book">
-        <div className="page-top one">
+        <div className="page-top one" style={{zIndex: "1000"}}>
           <img
             className="cover"
             src="http://3.bp.blogspot.com/-tbYB9NjjOWE/UXTDr-oCleI/AAAAAAACHZc/jL6Odw2Ussc/s1600/index_08.jpg"
@@ -21,7 +27,7 @@ const Intro = ({setFirstTime}) => {
           </div>
         </div>
 
-        <div className="page-bottom one-b">
+        <div className="page-bottom one" style={{zIndex: "950"}}>
           <img
             className="illustration"
             src="https://www.voyager.od.ua/wp-content/uploads/2016/07/117-1.jpg"
@@ -29,7 +35,7 @@ const Intro = ({setFirstTime}) => {
           />
         </div>
 
-        <div className="page-top two">
+        <div className="page-top two" style={{zIndex: "900"}}>
           <div className="text">
             &nbsp;Once upon a time, in a faraway country at the very blue
             mountains, there were a prince and a princess. <br /><br />&nbsp;Prince
@@ -38,14 +44,14 @@ const Intro = ({setFirstTime}) => {
           </div>
 
           <div
-            className="startBtn"
-            onClick={() => setFirstTime(false)}
+            className="nextPageBtn"
+            onClick={() => pageFlip('two')}
           >
-            Skip Intro >>>
+            Next >>>
           </div>
         </div>
 
-        <div className="page-bottom two-b">
+        <div className="page-bottom two" style={{zIndex: "850"}}>
           <img
             className="illustration"
             src="http://atmeclub.com.ua/uploads/article/image/777/__________________1.jpg"
@@ -53,21 +59,21 @@ const Intro = ({setFirstTime}) => {
           />
         </div>
 
-        <div className="page-top three">
+        <div className="page-top three" style={{zIndex: "800"}}>
           <div className="text">
             &nbsp;Their country was rich and the prince and his princess
             lived without knowing worries.
           </div>
 
           <div
-            className="startBtn"
-            onClick={() => setFirstTime(false)}
+            className="nextPageBtn"
+            onClick={() => pageFlip('three')}
           >
-            Skip Intro >>>
+            Next >>>
           </div>
         </div>
 
-        <div className="page-bottom three-b">
+        <div className="page-bottom three" style={{zIndex: "750"}}>
           <img
             className="illustration"
             src="https://i.pinimg.com/originals/2f/92/0d/2f920d059a14b79774f5c05614697059.jpg"
@@ -75,7 +81,7 @@ const Intro = ({setFirstTime}) => {
           />
         </div>
 
-        <div className="page-top four">
+        <div className="page-top four" style={{zIndex: "700"}}>
           <div className="text">
             &nbsp;Faraway from that place an evil sorccerer lived in his
             dark castle. <br /><br />&nbsp;He envied the happyness of nice pair. So
@@ -84,14 +90,14 @@ const Intro = ({setFirstTime}) => {
           </div>
 
           <div
-            className="startBtn"
-            onClick={() => setFirstTime(false)}
+            className="nextPageBtn"
+            onClick={() => pageFlip('four')}
           >
-            Skip Intro >>>
+            Next >>>
           </div>
         </div>
 
-        <div className="page-bottom four-b">
+        <div className="page-bottom four" style={{zIndex: "650"}}>
           <img
             className="illustration"
             src="https://myberloga.at.ua/_bl/0/42806.jpg"
@@ -99,7 +105,7 @@ const Intro = ({setFirstTime}) => {
           />
         </div>
 
-        <div className="page-top five">
+        <div className="page-top five" style={{zIndex: "600"}}>
           <div className="text">
             &nbsp;Once, when the princess and her friend (not a
             girlfriend - they were just friends) went to the river
@@ -110,14 +116,14 @@ const Intro = ({setFirstTime}) => {
           </div>
 
           <div
-            className="startBtn"
-            onClick={() => setFirstTime(false)}
+            className="nextPageBtn"
+            onClick={() => pageFlip('five')}
           >
-            Skip Intro >>>
+            Next >>>
           </div>
         </div>
 
-        <div className="page-bottom five-b">
+        <div className="page-bottom five" style={{zIndex: "550"}}>
           <img
             className="illustration"
             src="https://myberloga.at.ua/_bl/0/42009.jpg"
@@ -125,7 +131,7 @@ const Intro = ({setFirstTime}) => {
           />
         </div>
 
-        <div className="page-top six">
+        <div className="page-top six" style={{zIndex: "500"}}>
           <div className="text">
             &nbsp;Without losing a second, prince went home, where he ate well
             and slept well, and then ate again.<br /><br />&nbsp;Then he straddled his horse...
@@ -133,14 +139,14 @@ const Intro = ({setFirstTime}) => {
           </div>
 
           <div
-            className="startBtn"
-            onClick={() => setFirstTime(false)}
+            className="nextPageBtn"
+            onClick={() => pageFlip('six')}
           >
-            Skip Intro >>>
+            Next >>>
           </div>
         </div>
 
-        <div className="page-bottom six-b">
+        <div className="page-bottom six" style={{zIndex: "450"}}>
           <img
             className="illustration"
             src="https://img1.liveinternet.ru/images/attach/c/7/96/444/96444279_large_4326608_50853aleni.jpg"
@@ -148,7 +154,7 @@ const Intro = ({setFirstTime}) => {
           />
         </div>
 
-        <div className="page-top seven">
+        <div className="page-top seven" style={{zIndex: "400"}}>
           <div className="text">
             &nbsp;...OK. If you insist... <br /><br />&nbsp;He sewn wings to his horse and
             did not ride but flew to save his princess. He was not worried much, because
@@ -157,14 +163,14 @@ const Intro = ({setFirstTime}) => {
           </div>
 
           <div
-            className="startBtn"
-            onClick={() => setFirstTime(false)}
+            className="nextPageBtn"
+            onClick={() => pageFlip('seven')}
           >
-            Skip Intro >>>
+            Next >>>
           </div>
         </div>
 
-        <div className="page-bottom seven-b">
+        <div className="page-bottom seven" style={{zIndex: "350"}}>
           <img
             className="illustration"
             src="https://i.goldvoice.club/0x0/http://spi1uk.itvnet.lv/upload/articles/30/301931/images/Mistika-8-137.jpg"
@@ -172,7 +178,7 @@ const Intro = ({setFirstTime}) => {
           />
         </div>
 
-        <div className="page-top eight">
+        <div className="page-top eight" style={{zIndex: "300"}}>
           <div className="text">
             &nbsp;Meanwhile, the dragon brings the princess to the dark castle. <br />&nbsp;Prince was not
             mistaken, the sorcerer indeed didn't know what to do next. Nobody knows why he
@@ -182,14 +188,14 @@ const Intro = ({setFirstTime}) => {
           </div>
 
           <div
-            className="startBtn"
-            onClick={() => setFirstTime(false)}
+            className="nextPageBtn"
+            onClick={() => pageFlip('eight')}
           >
-            Skip Intro >>>
+            Next >>>
           </div>
         </div>
 
-        <div className="page-bottom eight-b">
+        <div className="page-bottom eight" style={{zIndex: "250"}}>
           <img
             className="illustration"
             src="https://img4.goodfon.ru/wallpaper/nbig/b/44/oota-youjo-art-anime-svechi-temnitsa-fonar-reshotka-devochka.jpg"
@@ -197,7 +203,7 @@ const Intro = ({setFirstTime}) => {
           />
         </div>
 
-        <div className="page-top nine">
+        <div className="page-top nine" style={{zIndex: "200"}}>
           <div className="text">
             &nbsp;So the sorccerer put the princess in the highest tower and began to wait for prince.
             <br /><br />&nbsp;On the way to the princess' dungeon he set three times three doors and put a
@@ -206,14 +212,14 @@ const Intro = ({setFirstTime}) => {
           </div>
 
           <div
-            className="startBtn"
-            onClick={() => setFirstTime(false)}
+            className="nextPageBtn"
+            onClick={() => pageFlip('nine')}
           >
-            Skip Intro >>>
+            Next >>>
           </div>
         </div>
 
-        <div className="page-bottom nine-b">
+        <div className="page-bottom nine" style={{zIndex: "150"}}>
           <img
             className="illustration"
             src="https://winners-games.ru/wp-content/uploads/2017/09/Dranglik.jpg"
@@ -221,7 +227,7 @@ const Intro = ({setFirstTime}) => {
           />
         </div>
 
-        <div className="page-top ten">
+        <div className="page-top ten" style={{zIndex: "100"}}>
           <div className="text">
             &nbsp;In a week or so prince came to the sorccerer's dark castle.
             <br /><br />&nbsp;And this is were our story starts...
