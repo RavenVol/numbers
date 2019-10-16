@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/numbers/static/css/main.49cba690.chunk.css",
+    "main.css": "/numbers/static/css/main.c1f0b55b.chunk.css",
     "main.js": "/numbers/static/js/main.b40eaf6e.chunk.js",
     "main.js.map": "/numbers/static/js/main.b40eaf6e.chunk.js.map",
     "runtime~main.js": "/numbers/static/js/runtime~main.a519d6d8.js",
@@ -8,9 +8,9 @@
     "static/js/2.74633e3a.chunk.js": "/numbers/static/js/2.74633e3a.chunk.js",
     "static/js/2.74633e3a.chunk.js.map": "/numbers/static/js/2.74633e3a.chunk.js.map",
     "index.html": "/numbers/index.html",
-    "precache-manifest.3c617b5311c7c93a0c1cad7cf1679e5c.js": "/numbers/precache-manifest.3c617b5311c7c93a0c1cad7cf1679e5c.js",
+    "precache-manifest.c67e59f82e7dd7b4beeecb4ac1b7f164.js": "/numbers/precache-manifest.c67e59f82e7dd7b4beeecb4ac1b7f164.js",
     "service-worker.js": "/numbers/service-worker.js",
-    "static/css/main.49cba690.chunk.css.map": "/numbers/static/css/main.49cba690.chunk.css.map",
+    "static/css/main.c1f0b55b.chunk.css.map": "/numbers/static/css/main.c1f0b55b.chunk.css.map",
     "static/media/intro.css": "/numbers/static/media/LiberationSerif-Regular.671c0f4d.ttf"
   }
 }
